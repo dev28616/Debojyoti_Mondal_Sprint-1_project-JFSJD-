@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bong Eats</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Aclonica&family=Aguafina+Script&family=Josefin+Sans:ital@0;1&family=Oswald&family=Roboto+Condensed:wght@700&display=swap"
+        rel="stylesheet">
+        
+    <style>
+        button {
+            background-color: #dc9f24;
+            color: rgb(0, 0, 0);
+            border: none;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition-duration: 0.4s;
+            font-size: 12px;
+            margin-bottom: 20px;
+            padding: 3px;
+        }
+
+        button:hover {
+            background-color: rgb(0, 0, 0);
+            color: #ab7004;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="home">
+        <!--================== Navbar ================-->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <h3 style="font-size:2.5em ; color:rgb(0, 0, 0); font-family: 'Aclonica', sans-serif;"><b>BONG <span
+                            style="color: rgb(247, 223, 6);">EATS</span></b></h3>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto font-weight-bold">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Back to Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!--======================== Main body ==================-->
+
+        <section id="contact" class="contact">
+
+            <!-- ===================== Google Map ========================= -->
+            <div>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15545.720257317316!2d77.5109958!3d13.0719081!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb5db5d963aa3655d!2sRusayil%20Bakery!5e0!3m2!1sen!2sin!4v1655876110043!5m2!1sen!2sin"
+                    width="95%" height="450"  allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    style="border:0; margin-left: 30px; margin-right: 30px;padding-top: 20px; box-shadow: 5px 5px 5px rgb(167, 167, 167); border-radius: 5px;"></iframe>
+
+            </div>
+            <div class="container">
+                <div class="row mt-3">
+
+                    <!-- ===================== Location Details ========================= -->
+
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Location:</h4>
+                                <p>Raja Reddy Layout, Hesarghatta Rd, Chikkabanavara, Bengaluru, Karnataka 560090</p>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>mondal.debojyoti17@gmail.com</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-phone"></i>
+                                <h4>Call:</h4>
+                                <p>+91 8945899803</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- ===================== contact form ========================= -->
+                    
+                    <div class="col-lg-8 mt-5 mt-lg-0">
+                        <form action="./thankyou.html" method="post" role="form" class="php-email-form"
+                            style="margin-bottom: 10px;">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name"
+                                        placeholder="Your Name" required>
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email"
+                                        placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject"
+                                    placeholder="Subject" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Feedback"
+                                    required></textarea>
+                            </div>
+                            <button onClick="alert( 'Thank You for Your Valuable Feedback.' )">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <footer id="footer">
+
+            <div class="footer-top">
+                <div class="container">
+                    <h3 style="font-size:2.5em ; color:rgb(0, 0, 0); font-family: 'Aclonica', sans-serif;"><b>BONG <span
+                                style="color: rgb(247, 223, 6);">EATS</span></b></h3>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 footer-links ml-3" style="margin-left: 500px ;">
+                            <h5>About Bong Eats</h5>
+                            <ul style="list-style: none; color: grey;">
+                                <li>Who Are We</li>
+                                <li>Blog</li>
+                                <li>Work With Us</li>
+                                <li>Investor Relations</li>
+                                <li>Report Fraud</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 footer-links ml-3" style="margin-left: 500px ;">
+                            <h5>Learn More</h5>
+                            <ul style="list-style: none; color: grey;">
+                                <li>Privacy</li>
+                                <li>Security</li>
+                                <li>Terms</li>
+                                <li>Sitemap</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-2 col-md-6 footer-links ml-3" style="margin-left: 500px ;">
+                            <h4 style="margin-left: 5px;">Social Links</h4>
+                            <div class="social-links text-center text-md-center pt-3 pt-md-0">
+                                <a href="#" class="facebook pr-2"><i class="fa fa-linkedin"
+                                        style="color:rgb(82, 82, 82);"></i></a>
+                                <a href="#" class="facebook pr-2"><i class="fa fa-facebook"
+                                        style="color:rgb(82, 82, 82);"></i></a>
+                                <a href="#" class="instagram pr-2"><i class="fa fa-instagram"
+                                        style="color:rgb(82, 82, 82);"></i></a>
+                                <a href="#" class="twitter pr-2"><i class="fa fa-twitter"
+                                        style="color:rgb(82, 82, 82);"></i></a>
+                                <a href="#" class="youtube pr-2"><i class="fa fa-youtube"
+                                        style="color:rgb(82, 82, 82);"></i></a>
+                                <a href="#" class="whatsapp pr-2"><i class="fa fa-whatsapp"
+                                        style="color:rgb(82, 82, 82);"></i></a>
+                            </div>
+                            <br>
+                            <div>
+                                <img src="resources\img\pngegg.png" alt="png" width="180px" height="150px">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="container d-md-flex py-4">
+                <div class="me-md-auto text-center text-md-start">
+                    <div class="copyright">
+                        By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy
+                        and
+                        Content Policies. All trademarks are properties of their respective owners. 2022 © Bong Eats™
+                        Ltd.
+                        All rights reserved.
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+
+
+
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
